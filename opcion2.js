@@ -24,3 +24,8 @@ list.onclick = function(ev){
          ev.target.classList.toggle('checked');
     }
 };
+all_button_2.addEventListener("click", function(){
+    while(list.firstChild) {
+        list.removeChild(list.firstChild)
+    }
+})

@@ -95,6 +95,27 @@ li:hover{
     text-decoration: line-through;
     background-color: #e0e0e0;
 }
+.containerClean {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+}
+.containerClean p {
+    font-size: 12px;
+    font-weight: 800;
+    margin-top: 12px;
+    padding-right: 8px;
+}
+.txt-button {
+    cursor: pointer;
+    color: rgb(77, 77, 255);
+}
+
+.txt-button:hover {
+    color: rgb(255, 97, 97);
+}
 
 @media screen and (max-width: 600px){
     .container{
